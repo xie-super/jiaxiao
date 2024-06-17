@@ -51,3 +51,14 @@ mybatis-plus:
 logging:
   level:
     com.dao: debug
+
+
+
+
+    #CREATE TABLE `vehicles` (
+    #  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
+    #  `name` varchar(255) DEFAULT NULL COMMENT '车辆名称',
+    #  `photo` varchar(255) DEFAULT NULL COMMENT '车辆图片',
+    #  `create_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
+    #  PRIMARY KEY (`id`)
+    #) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='车辆信息表';
